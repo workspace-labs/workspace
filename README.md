@@ -99,7 +99,7 @@ Each agent has a fixed job, and no agent may change its own:
 
 Swapping who builds and who reviews is a human button, and it lasts exactly one task.
 
-The general pattern behind this — roles that can't change, one owner per task, nothing reviewing itself — is written up on its own: **[Separation of duties for AI agents](https://github.com/itsmk91/agent-separation-of-duties)**.
+The general pattern behind this — roles that can't change, one owner per task, nothing reviewing itself — is written up on its own: **[Separation of duties for AI agents](https://github.com/workspace-labs/agent-separation-of-duties)**.
 
 ---
 
@@ -237,7 +237,7 @@ Thirty-four agent skills, continuously audited across Claude, Codex and the open
 
 The system checks its own tools, and reports what it finds. It checks the projects the same way — the real code behind each one, read before an agent is allowed to change it.
 
-The pattern behind both — evidence with a location, a labelled confidence, and a checker that is never allowed to fix what it found — is written up on its own, and **both checkers are there to take**: **[Health checks for AI agents](https://github.com/itsmk91/agent-health-checks)** — two dependency-free Node scripts, MIT licensed.
+The pattern behind both — evidence with a location, a labelled confidence, and a checker that is never allowed to fix what it found — is written up on its own, and **both checkers are there to take**: **[Health checks for AI agents](https://github.com/workspace-labs/agent-health-checks)** — two dependency-free Node scripts, MIT licensed.
 
 ---
 
