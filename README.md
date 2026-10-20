@@ -23,9 +23,9 @@ Agents read an idea, ask questions until they actually understand it, write a pl
 **I did not describe the redesign. I drew it.** Nine pictures of how I wanted each window
 to look went into a folder on my desktop, and that folder was the whole brief.
 
-What happened next is the board doing its ordinary job. Grok built a clickable demo of all
-nine windows in HTML and I accepted the shape before a line of the real app moved. Codex
-wrote the exam the build would be tested against. Claude built it. Codex scanned it twice
+What happened next is the board doing its ordinary job. The planner built a clickable demo of all
+nine windows in HTML and I accepted the shape before a line of the real app moved. The reviewer
+wrote the exam the build would be tested against. The builder built it. The reviewer scanned it twice
 and sent it back twice — once because a proof gate was quietly green on one version of Node
 and red on another, once because the delivery note described a screen that was not the one
 shipping. Then I pressed Accept.
@@ -88,9 +88,9 @@ Completed notes leave this view after seven days. Live work stays, however old i
 
 Each agent has a fixed job, and no agent may change its own:
 
-- **Grok** — asks the questions, writes the plan, owns the design
-- **Codex** — writes the checklist before the build, then reads the code another agent wrote and reports the bugs in plain language
-- **Claude** — builds, and tests against a list he didn't write
+- **The planner** — asks the questions, writes the plan, owns the design
+- **The reviewer** — writes the checklist before the build, then reads the code another agent wrote and reports the bugs in plain language
+- **The builder** — builds, and tests against a list it didn't write
 - **You** — decide
 
 **The checklist is the newest stage.** Before anything is built, the reviewer writes down what has to be true for the work to be finished. The builder then tests against that list — so nobody marks their own homework.
@@ -105,13 +105,13 @@ The general pattern behind this — roles that can't change, one owner per task,
 
 ## The biggest update yet — Agents Labs
 
-![Agents Labs — Grok, Claude and Codex on one terminal glass inside the app](media/09-agents-labs.png)
+![Agents Labs — the planner, builder and reviewer on one terminal glass inside the app](media/09-agents-labs.png)
 
 The three agents that plan, build and review my projects used to live in a Terminal window behind the app. Now they run inside it.
 
 **What's new:**
 
-- **One live terminal, inside the app** — Grok planning, Claude building, Codex reviewing
+- **One live terminal, inside the app** — one planning, one building, one reviewing
 - **The same session my computer was already running** — not a copy of it, and not a log of it
 - **Click a pane and type straight into that agent** — the same colours, the same live output
 - **Start** attaches · **Fresh** rebuilds the crew · **Stop watching** lets go of the picture, never of the crew
@@ -233,7 +233,7 @@ The pattern is the whole point. A bug gets fixed, then written down. If it keeps
 
 ![Skills — 34 audited, zero broken](media/04-skills.png)
 
-Thirty-four agent skills, continuously audited across Claude, Codex and the open Agent Skills contract — checked for structure, portability, trigger conflicts and safety signals. Read-only: nothing is executed to inspect it.
+Thirty-four agent skills, continuously audited across the agents I use and the open Agent Skills contract — checked for structure, portability, trigger conflicts and safety signals. Read-only: nothing is executed to inspect it.
 
 The system checks its own tools, and reports what it finds. It checks the projects the same way — the real code behind each one, read before an agent is allowed to change it.
 
