@@ -1,10 +1,10 @@
 # 🌌 Workspace
 
-**A local-first macOS control room for building software with AI — without surrendering the final decision.**
+**A local-first desktop control room for building software with AI — without surrendering the final decision.**
 
 > A showcase of a private project. Screenshots and design, not source.
 
-![Overview — ten places in one orbit, every count read live](media/01-overview.png)
+![Overview — the new home screen: you decide, the agents build](media/01-overview.png)
 
 ---
 
@@ -112,7 +112,7 @@ The three agents that plan, build and review my projects used to live in a Termi
 **What's new:**
 
 - **One live terminal, inside the app** — Grok planning, Claude building, Codex reviewing
-- **The same session my Mac was already running** — not a copy of it, and not a log of it
+- **The same session my computer was already running** — not a copy of it, and not a log of it
 - **Click a pane and type straight into that agent** — the same colours, the same live output
 - **Start** attaches · **Fresh** rebuilds the crew · **Stop watching** lets go of the picture, never of the crew
 
@@ -264,7 +264,7 @@ That last one is the design. There is nothing to maintain and nothing to switch 
 
 ## What it's built on
 
-Electron · Node · macOS. Offline by default — it reads your projects live from disk and never copies your code anywhere.
+Electron · Node · Mac today, Windows on the way. Offline by default — it reads your projects live from disk and never copies your code anywhere.
 
 ---
 
